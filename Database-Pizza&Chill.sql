@@ -180,7 +180,7 @@ use Pizza_And_Chill
 insert into Department(deptt_no, Types, hod, deptt_salary) 
 values(1, 'Kitchen', 'Manish', 10000),
 (2, 'Delivery', 'Ram', 5000),
-(3, 'Orders', 'Param', 7500)
+(3, 'Orders', 'Param', 7500)                                                        
 
 insert into Customer(cust_no, cust_name, cust_address,cust_phone, no_of_orders, ratings)
 values(1, 'Anirudh', 'Sector 72', 9827364738 , 8, 4),
@@ -188,7 +188,8 @@ values(1, 'Anirudh', 'Sector 72', 9827364738 , 8, 4),
 (3, 'Aalim', 'Sector 31', 9234534343 , 4, 3),
 (4, 'Parth', 'Sector 92', 9234564738 , 1, 1),
 (5, 'Dishad', 'Sector 72', 9823433457 , 2, 4)
-(6, 'Aditya', 'Sector 41', 9823433452 , 3, 5)                                                       
+(6, 'Aditya', 'Sector 41', 9823433452 , 3, 5)
+(7 , 'Aadya','Sector 22', 98109877123 , 4 , 5 )                                                         
                                                         
 
 insert into Branches(bran_no, bran_name, region, phone, no_of_employees, manager_no, manager, bran_expenditure, tot_revenue)
